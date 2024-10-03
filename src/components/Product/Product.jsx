@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import { addCount } from "../../redux/counter/countSlice";
 import { addWish } from "../../redux/wishlist/wishSlice";
-import like from "../../assets/svg/wishList.svg";
+// import like from "../../assets/svg/wishList.svg";
 import { addCart } from "../../redux/cart/cart.Slice";
 
 
@@ -116,7 +116,7 @@ function Product() {
               </Link>
               <button onClick={() => dispatch(addCart(item))} className="add-b">add to cart</button>
               <div className="product-icons">
-                <img onClick={() => dispatch(addWish(item))} src={like} alt="" />
+                <img onClick={() => dispatch(addWish(item))} src="" alt="" />
                 <img src="" alt="" />
               </div>
               {item.discount && (
