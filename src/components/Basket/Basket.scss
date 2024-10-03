@@ -1,0 +1,272 @@
+.cart{ 
+ 
+ 
+    .cart-head{ 
+ 
+        height: 197px; 
+        display: flex; 
+        align-items: center; 
+    } 
+ 
+    .cart-top{ 
+ 
+ 
+        .cart-products{ 
+            // height: 302px; 
+            
+ 
+            .names{ 
+                height: 72px; 
+               display: flex; 
+               justify-content: space-between; 
+               align-items: center; 
+               padding-left: 40px; 
+               padding-right: 40px; 
+ 
+                 h5{ 
+                    /* Title/16PX Regular */ 
+                    color: rgb(0, 0, 0); 
+                    font-family: Poppins; 
+                    font-size: 16px; 
+                    font-weight: 400; 
+                    line-height: 24px; 
+                    letter-spacing: 0%; 
+                    text-align: left; 
+                 } 
+            } 
+ 
+            .cart-product{ 
+                // height: 102px; 
+                margin-top: 128px; 
+                display: flex; 
+                align-items: center; 
+                justify-content: space-between; 
+ 
+ 
+                .cart-img{ 
+                  display: flex; 
+                  align-items: center; 
+                  margin-left: 43px; 
+                  margin-right: 200px; 
+                  width: 350px;
+ 
+                  img{ 
+                    width: 49px; 
+                    height: 42px; 
+                  } 
+                  h3{ 
+                    /* Title/16PX Regular */ 
+                    color: rgb(0, 0, 0); 
+                    font-family: Poppins; 
+                    font-size: 16px; 
+                    font-weight: 400; 
+                    line-height: 24px; 
+                    letter-spacing: 0%; 
+                   margin-left: 20px; 
+                  } 
+                } 
+ 
+                p{ 
+                    /* Title/16PX Regular */ 
+                    color: rgb(0, 0, 0); 
+                    font-family: Poppins; 
+                    font-size: 16px; 
+                    font-weight: 400; 
+                    line-height: 24px; 
+                    letter-spacing: 0%; 
+                    text-align: left; 
+                } 
+                 
+                .count{ 
+                    width: 72px; 
+                    height: 44px; 
+                    display: flex; 
+                    // align-items: center; 
+                    justify-content: space-between; 
+                    margin-left: 332px; 
+                    margin-right: 351px; 
+                    border: 1.5px solid rgba(0, 0, 0, 0.4); 
+                    border-radius: 4px; 
+                    padding: 6px 12px 6px 12px; 
+          
+                    h5{ 
+                        /* Title/16PX Regular */ 
+                        color: rgb(0, 0, 0); 
+                        font-family: Poppins; 
+                        font-size: 16px; 
+                        font-weight: 400; 
+                        line-height: 24px; 
+                        letter-spacing: 0%; 
+                        margin-top: 5px; 
+                        // text-align: left; 
+                    } 
+                    .icons{ 
+                        display: flex; 
+                        flex-direction: column; 
+ 
+                        img{ 
+                            width: 16px; 
+                            height: 16px; 
+                        } 
+                    } 
+                } 
+            } 
+        } 
+ 
+        .buttons{ 
+            display: flex; 
+            justify-content: space-between; 
+            margin-top: 53px; 
+ 
+ 
+             .btn1{ 
+                width: 218px; 
+                height: 56px; 
+                border: 1px solid rgba(0, 0, 0, 0.5); 
+                border-radius: 4px; 
+                /* Title/16PX Medium */ 
+                color: rgb(0, 0, 0); 
+                font-family: Poppins; 
+                font-size: 16px; 
+                font-weight: 500; 
+                line-height: 24px; 
+                letter-spacing: 0%; 
+                text-align: center; 
+             } 
+ 
+             .btn2{ 
+                width: 195px; 
+                height: 56px;
+                box-sizing: border-box; 
+                border: 1px solid rgba(0, 0, 0, 0.5); 
+                border-radius: 4px; 
+                /* Title/16PX Medium */ 
+                color: rgb(0, 0, 0); 
+                font-family: Poppins; 
+                font-size: 16px; 
+                font-weight: 500; 
+                line-height: 24px; 
+                letter-spacing: 0%; 
+                text-align: center; 
+ 
+ 
+ 
+             } 
+        } 
+    } 
+ 
+    .cart-bottom{ 
+        // width: 1170px;  
+        // height: 324px; 
+        display: flex; 
+        justify-content: space-between; 
+        margin-top: 80px; 
+        margin-bottom: 194px; 
+             
+        .cart-left{ 
+            display: flex; 
+ 
+            .cart-con{ 
+                display: flex; 
+                align-items: center; 
+                width: 300px; 
+                height: 56px; 
+                box-sizing: border-box; 
+                border: 1px solid rgb(0, 0, 0); 
+                border-radius: 4px; 
+             
+ 
+ 
+                  h6{ 
+                     /* Title/16PX Regular */ 
+                    color: rgb(0, 0, 0); 
+                    font-family: Poppins; 
+                    font-size: 16px; 
+                    font-weight: 400; 
+                    line-height: 24px; 
+                    letter-spacing: 0%; 
+                    margin-left: 24px; 
+                  } 
+            } 
+ 
+            button{ 
+                width: 211px; 
+                height: 56px; 
+                border-radius: 4px; 
+                background: rgb(219, 68, 68); 
+                border-style: none; 
+                margin-left: 16cm; 
+                color: rgb(250, 250, 250); 
+                font-family: Poppins; 
+                font-size: 16px; 
+                font-weight: 500; 
+                line-height: 24px; 
+                letter-spacing: 0%; 
+                margin-left: 16px; 
+ 
+            } 
+       
+ 
+        } 
+ 
+        .cart-right{ 
+            width: 470px; 
+            height: 324px; 
+            box-sizing: border-box; 
+            border: 1.5px solid rgb(0, 0, 0); 
+            border-radius: 4px; 
+            padding: 32px 24px; 
+                  
+            h3{ 
+                /* Title/20PX Medium */ 
+                color: rgb(0, 0, 0); 
+                font-family: Poppins; 
+                font-size: 20px; 
+                font-weight: 500; 
+                line-height: 28px; 
+                letter-spacing: 0%; 
+                text-align: left; 
+                margin-bottom: 24px; 
+            } 
+ 
+            .price{ 
+                 display: flex;  
+                 justify-content: space-between; 
+                 margin-bottom: 16px; 
+                 border-bottom: 1px solid rgb(107, 98, 98); 
+ 
+ 
+                h5{ 
+                    /* Title/16PX Regular */ 
+                    color: rgb(0, 0, 0); 
+                    font-family: Poppins; 
+                    font-size: 16px; 
+                    font-weight: 400; 
+                    line-height: 24px; 
+                    letter-spacing: 0%; 
+                    text-align: left; 
+                } 
+            } 
+ 
+            button{ 
+                width: 260px; 
+                height: 56px; 
+                border-radius: 4px; 
+                background: rgb(219, 68, 68); 
+                border-style: none; 
+                margin-top: 16px; 
+                margin-bottom: 32px; 
+                color: rgb(250, 250, 250); 
+                font-family: Poppins; 
+                font-size: 16px; 
+                font-weight: 500; 
+                line-height: 24px; 
+                letter-spacing: 0%; 
+                text-align: center; 
+                margin-left: 89px; 
+            } 
+ 
+        } 
+    } 
+     
+}

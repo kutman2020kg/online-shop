@@ -1,0 +1,113 @@
+
+
+.check {
+    .check-head {
+        margin-bottom: 80px;
+        margin-top: 79px;
+    }
+    
+    .billing-details {
+        display: flex;
+        justify-content: space-between;
+        
+        .details-one {
+            input {
+                margin-bottom: 32px;
+            }
+            .inp1 {
+                h1{
+                    margin-bottom: 48px;
+                }
+            }
+            *{
+                padding: 0;
+                margin: 0;
+            }
+            input {
+                width: 470px;
+                height: 50px; 
+                border: none;  
+                background-color: rgb(245, 245, 245);    
+            }
+            .inf {
+                display: flex;
+                gap: 16px;
+            }
+        }
+        .details-two {
+            margin-top: 120px;
+            .price-products {
+                display: flex;
+                gap: 26.12px;
+
+                img{
+                    margin-bottom: 45.78px;
+                }
+                p{
+                    margin-left: 265px;
+                }
+            }
+            .prices{
+                .result-prices {
+                    display: flex;
+                    justify-content: space-between;
+                }
+            }
+            .oplata {
+                display: flex;
+                gap: 16px;
+                margin-bottom: 34px;
+                img{
+                    margin-left: 44px;
+                }
+            }
+            .oplata2 {
+                display: flex;
+                gap: 16px;
+
+            }
+            .bottom-b {
+                display: flex;
+                gap: 16px;
+                margin-bottom: 32px;
+                margin-top: 32px;
+
+                input{
+                    width: 300px;
+                    height: 56px;
+                    box-sizing: border-box;
+                    border: 1px solid rgb(0, 0, 0);
+                    border-radius: 4px;
+
+                    /* Title/16PX Regular */
+color: rgb(0, 0, 0);
+font-family: Poppins;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+
+                }
+                button {
+                    width: 211px;
+                    border-radius: 4px;
+
+/* Button2 */
+background: rgb(219, 68, 68);
+color: white;
+                }
+            }
+        }
+    }
+}
+
+.but{
+    width: 190px;
+    height: 56px;
+    border-radius: 4px;
+
+/* Button2 */
+background: rgb(219, 68, 68);
+color: white;
+}
